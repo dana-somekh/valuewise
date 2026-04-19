@@ -1,0 +1,9 @@
+{
+  "name": "ValueWise",
+  "short_name": "ValueWise",
+  "start_url": "/dashboard",
+  "display": "standalone",
+  "background_color": "#f5faf7",
+  "theme_color": "#0f3b2e",
+  "icons": []
+}

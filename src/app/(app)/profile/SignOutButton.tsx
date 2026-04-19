@@ -1,0 +1,20 @@
+'use client'
+
+import { useRouter } from 'next/navigation'
+import { createClient } from '@/lib/supabase/client'
+import { Button } from '@/components/ui/button'
+
+export function SignOutButton() {
+  const router = useRouter()
+  async function onClick() {
+    const supabase = createClient()
+    await supabase.auth.signOut()
+    router.push('/login')
+    router.refresh()
+  }
+  return (
+    <Button variant="outline" className="w-full h-11" onClick={onClick}>
+      יציאה
+    </Button>
+  )
+}
