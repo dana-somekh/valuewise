@@ -60,7 +60,7 @@ The course deliverable — market analysis, personas, Lean Canvas, validation in
 Prerequisites: Node.js 20+, a Supabase project, and a Google Gemini API key.
 
 ```bash
-git clone <this-repo>
+git clone https://github.com/dana-somekh/valuewise.git
 cd valuewise
 npm install
 ```
